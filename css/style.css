@@ -1,4 +1,44 @@
 body{
 	margin: 0;
+	padding: 15px;
+	background: url(../img/bg.jpg) repeat;
+}
+
+.container{
+	background: #fff;
+}
+
+div.inside_right{
+	padding: 10px;
+}
+
+div.inside_left{
 	padding: 0;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+div.inside_left ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+div.inside_left ul a{
+	display: block;
+	padding: 10px 0;
+	border-bottom: 1px solid #000;
+	text-align: center;
+	background: #999;
+	color: #000;
+}
+
+div.inside_left ul:first-child{
+	border-top: 1px solid #000;
+}
+
+div.inside_left ul a:hover{
+	text-decoration: none;
+	background: #444;
+	color: #fff;
 }
